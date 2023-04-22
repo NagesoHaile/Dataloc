@@ -22,4 +22,5 @@ urlpatterns = [
     path('test/',include('core.urls')),
     path('auth/',include('djoser.urls')),
     path('auth/',include('djoser.urls.jwt')),
+    path('user/', include('userprofile.urls')),
 ]
